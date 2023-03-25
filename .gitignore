@@ -1,2 +1,5 @@
 input_image/
+!input_image/.gitkeep
+!input_image/00.PNG
 output_image/
+!output_image/.gitkeep

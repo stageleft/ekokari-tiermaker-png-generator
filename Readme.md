@@ -25,8 +25,12 @@ git clone https://github.com/stageleft/ekokari-tiermaker-png-converter.git
 
 ## prepare
 
-get game screenshots from your platform.
-put screenshots same as sample.png into input_image directory.
+remove sample image if necessary.
+```sh
+rm input_image/00.PNG
+```
+
+get game screenshots from your platform and set into input_image directory.
 
 ## execute
 
