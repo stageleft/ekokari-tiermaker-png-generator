@@ -1,4 +1,4 @@
-# about ekokari-tiermaker-png-converter
+# about ekokari-tiermaker-png-generator
 
 sample script of rcairo
 
@@ -20,7 +20,7 @@ gem install cairo
 download me.
 
 ```sh
-git clone https://github.com/stageleft/ekokari-tiermaker-png-converter.git
+git clone https://github.com/stageleft/ekokari-tiermaker-png-generator.git
 ```
 
 ## prepare
@@ -51,9 +51,11 @@ https://rubygems.org/gems/cairo/versions/1.16.1?locale=ja
 ## input specificaton document
 
 https://www.ekokari.jp/
+
 https://support.apple.com/kb/SP804?locale=ja_JP
 
 ## output specificaton document
 
 https://tiermaker.com/
+
 https://tiermaker.com/blog/support/18/image-limits/#:~:text=Template%20Image%20Limits%20(Number%20of%20Images%20%26%C2%A0Total%20Image%C2%A0File%20Size)
