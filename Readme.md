@@ -6,7 +6,7 @@ sample script of rcairo
 
 input : 1792 x 828 png image
 
-output : x png image, 
+output : 189 x 189 png image
 
 ## install (Windows)
 
@@ -17,14 +17,18 @@ Execute command in VScode bash terminal.
 gem install cairo
 ```
 
+download me.
+
+```sh
+git clone https://github.com/stageleft/ekokari-tiermaker-png-converter.git
+```
+
 ## prepare
 
 get game screenshots from your platform.
 put screenshots same as sample.png into input_image directory.
 
 ## execute
-
-
 
 ```sh
 ruby convert.rb input_image output_image
