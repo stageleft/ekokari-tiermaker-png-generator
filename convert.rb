@@ -3,12 +3,14 @@
 require 'cairo'
 
 # setup conversion spec.
-in_width = 1792
-in_height = 828
+in_width = 2560
+in_height = 1080
 
-out_xpos = 94
-out_ypos = 593
-out_width = 189
+# position of left-upper point
+out_xpos = 50
+out_ypos = 802
+
+out_width = 247
 out_height = out_width
 
 # functions
@@ -45,9 +47,9 @@ in_dir = ARGV[0]
 out_dir = ARGV[1]
 
 Dir.glob("#{in_dir}/*").each{|in_name|
-    out_name = in_name.gsub("#{in_dir}", "#{out_dir}")
+    out_name = in_name.downcase.gsub("#{in_dir}", "#{out_dir}")
     trim(in_name, out_name, out_xpos, out_ypos, out_width, out_height)
-    trim_and_mirror(in_name, out_name.gsub(".PNG", "r.PNG"), out_xpos, out_ypos, out_width, out_height)
+    trim_and_mirror(in_name, out_name.gsub(".png", "r.png"), out_xpos, out_ypos, out_width, out_height)
 }
 
 exit 0

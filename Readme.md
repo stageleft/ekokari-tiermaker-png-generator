@@ -4,9 +4,17 @@ sample script of rcairo
 
 ## specification
 
-input : 1792 x 828 png image
+### convert.rb
 
-output : 189 x 189 png image
+input : 2560 x 1080 png image
+
+output : 2 x (247 x 247) png image
+
+### emotes.rb
+
+input : 2560 x 1080 png image
+
+output : 5 x (114 x 114) png image
 
 ## install (Windows)
 
@@ -23,22 +31,22 @@ download me.
 git clone https://github.com/stageleft/ekokari-tiermaker-png-generator.git
 ```
 
-## prepare
+## prepare (convert.rb case. same as emotes.rb)
 
 remove sample image if necessary.
 ```sh
-rm input_image/00.PNG
+rm input_image/00.png
 ```
 
 get game screenshots from your platform and set into input_image directory.
 
-## execute
+## execute (convert.rb case. same as emotes.rb)
 
 ```sh
 ruby convert.rb input_image output_image
 ```
 
-## check outputs
+## check outputs (convert.rb case. same as emotes.rb)
 
 see *.png files in output_image directory.
 
@@ -52,7 +60,7 @@ https://rubygems.org/gems/cairo/versions/1.16.1?locale=ja
 
 https://www.ekokari.jp/
 
-https://support.apple.com/kb/SP804?locale=ja_JP
+https://support.bluestacks.com/hc/en-us/articles/4402958247949-How-to-change-screen-resolution-on-BlueStacks-5
 
 ## output specificaton document
 

@@ -1,8 +1,11 @@
+convert.bat
 input_image/
 !input_image/.gitkeep
 !input_image/00.png
 output_image/
 !output_image/.gitkeep
+
+emotes.bat
 input_emotes/
 !input_emotes/.gitkeep
 !input_emotes/Camelia.png
