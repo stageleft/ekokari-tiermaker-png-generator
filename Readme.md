@@ -34,6 +34,7 @@ git clone https://github.com/stageleft/ekokari-tiermaker-png-generator.git
 ## prepare (convert.rb case. same as emotes.rb)
 
 remove sample image if necessary.
+
 ```sh
 rm input_image/00.png
 ```
@@ -52,18 +53,20 @@ see *.png files in output_image directory.
 
 ## technical document
 
-https://magazine.rubyist.net/articles/0019/0019-cairo.html
+[cairo： 2 次元画像描画ライブラリ](https://magazine.rubyist.net/articles/0019/0019-cairo.html) from rubyist magazine
 
-https://rubygems.org/gems/cairo/versions/1.16.1?locale=ja
+[RubyGems cairo 1.16.1](https://rubygems.org/gems/cairo/versions/1.16.1?locale=ja)
 
-## input specificaton document
+## Requirement
 
-https://www.ekokari.jp/
+### input specificaton document
 
-https://support.bluestacks.com/hc/en-us/articles/4402958247949-How-to-change-screen-resolution-on-BlueStacks-5
+[Echocalypse -緋紅の神約-](https://www.ekokari.jp/main)
 
-## output specificaton document
+[How to change screen resolution on BlueStacks 5](https://support.bluestacks.com/hc/en-us/articles/4402958247949-How-to-change-screen-resolution-on-BlueStacks-5) from Bluestack Help Center
 
-https://tiermaker.com/
+### output specificaton document
 
-https://tiermaker.com/blog/support/18/image-limits/#:~:text=Template%20Image%20Limits%20(Number%20of%20Images%20%26%C2%A0Total%20Image%C2%A0File%20Size)
+[TierMaker](https://tiermaker.com/)
+
+[TierMaker Template Images: Limits, Formats, Dimensions/Cropping & Ordering](https://tiermaker.com/blog/support/18/image-limits/#:~:text=Template%20Image%20Limits%20(Number%20of%20Images%20%26%C2%A0Total%20Image%C2%A0File%20Size))
